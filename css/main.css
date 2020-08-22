@@ -181,12 +181,12 @@ h1 h2 h3 {
 .footer__text--left {
   margin-left: 50px;
 }
-.footer__text--left h4 {
+.footer__text--left h1 {
   color: #11abed;
   margin-bottom: 0;
   font-size: 10px;
 }
-.footer__text--left h6 {
+.footer__text--left h2 {
   color: #013a4f;
   margin-top: 0;
   font-size: 15px;
