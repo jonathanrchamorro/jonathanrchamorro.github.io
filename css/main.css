@@ -119,21 +119,23 @@ h1 h2 h3 {
   font-weight: lighter;
   font-size: 11px;
 }
-.hero__left button {
+.hero__left .hero__button--promo {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.hero__left .hero__button--promo button {
   border-radius: 50px;
   border: 1px solid #11abed;
   background-color: #11abed;
   padding: 10px 15px;
   color: #ffff;
   font-size: 10px;
-  margin-top: 20px;
 }
-.hero__left span {
+.hero__left .hero__button--promo span {
   color: #013a4f;
-  position: absolute;
-  top: 225px;
-  left: 120px;
-  font-size: 15px;
+  font-size: 1.5vw;
 }
 .hero__left img {
   position: absolute;
@@ -204,12 +206,12 @@ h1 h2 h3 {
 }
 
 .footer__icontext {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: space-evenly;
   background-color: #ffffff;
   position: relative;
   width: auto;
-  margin-bottom: 0;
   margin-left: 60px;
   margin-right: 60px;
   flex-wrap: wrap;
@@ -217,11 +219,17 @@ h1 h2 h3 {
   border-radius: 0 0 60px 60px;
   align-items: center;
 }
-.footer__icontext img {
+.footer__icontext .footer__box {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  padding: 0 20px;
+}
+.footer__icontext .footer__box img {
   width: 25px;
   height: 25px;
 }
-.footer__icontext p {
+.footer__icontext .footer__box p {
   font-size: 10px;
   max-width: 200px;
 }
