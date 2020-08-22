@@ -107,7 +107,7 @@ h1 h2 h3 {
   position: relative;
   width: auto;
 }
-.hero__left h6 {
+.hero__left .hero__subtitle {
   color: #11abed;
 }
 .hero__left h1 {
